@@ -29,7 +29,14 @@
             <artifactId>BaseMod</artifactId>
             <version>${BaseMod.version}</version>
             <scope>system</scope>
-            <systemPath>${basedir}/../lib/BaseMod.jar</systemPath>
+            <systemPath>${basedir}/../lib/mods/BaseMod.jar</systemPath>
+        </dependency>
+        <dependency>
+            <groupId>com.evacipated.cardcrawl</groupId>
+            <artifactId>StSLib</artifactId>
+            <version>${StSLib.version}</version>
+            <scope>system</scope>
+            <systemPath>${basedir}/../lib/mods/StSLib.jar</systemPath>
         </dependency>
 
     </dependencies>
@@ -63,7 +70,7 @@
                         <phase>package</phase>
                         <configuration>
                             <target>
-                                <copy file="target/SlayTheSpireTogether.jar" tofile="../lib/SlayTheSpireTogether.jar"/>
+                                <copy file="target/SlayTheSpireTogether.jar" tofile="../lib/mods/SlayTheSpireTogether.jar"/>
                             </target>
                         </configuration>
                         <goals>

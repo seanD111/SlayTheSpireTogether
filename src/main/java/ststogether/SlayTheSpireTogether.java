@@ -8,6 +8,6 @@ public class SlayTheSpireTogether {
 
     }
     public static void initialize(){
-
+        new SlayTheSpireTogether();
     }
 }

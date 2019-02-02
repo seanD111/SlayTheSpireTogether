@@ -1,0 +1,11 @@
+{
+  "modid": "SlayTheSpireTogether",
+  "name": "SlayTheSpireTogether Mod",
+  "author_list": ["Sean DeLong", "Tudor Tibu"],
+  "description": "Allows you to Slay the Spire with a friend.",
+  "version": "1.0.0",
+  "sts_version": "01-03-2019",
+  "mts_version": "3.6.3",
+  "dependencies": ["basemod", "stslib"],
+  "update_json": ""
+}
